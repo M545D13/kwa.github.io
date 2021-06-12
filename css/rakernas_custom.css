@@ -1,0 +1,81 @@
+html, body {
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mgq {
+    margin: 0 auto;
+    width: min(1140px, calc(70% + 100px));
+  }
+
+.ts-1 , .navbar-brand , .sections > h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-brand , .sections > h1 {
+    color: white;
+}
+
+.ts-2 , .nav-link , .no-decor , .sections > p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav-link , .no-decor , .sections > p {
+    color: white;
+}
+
+.sections > h1 {
+    font-weight: 600;
+    font-size: clamp(3rem, 10vw, 8rem);
+}
+
+.sections > p {
+    font-size: clamp(1rem, 3vw, 2rem);
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    padding: 1rem 0 ;
+}
+
+.bg-dark a {
+    color: white;
+}
+
+.no-decor {
+    text-decoration: none;
+    color: black;
+}
+
+.no-decor:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.lhome {
+    display: flex;
+    flex-direction: column;
+    height: calc(100% / 3);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.kwa {
+    height: calc(100% * 3);
+    background-image: linear-gradient(#063063 -5%, #055CBE 30%, #EDA5A2 79%, #EDA5A2 80%, #063063 105%);
+}
